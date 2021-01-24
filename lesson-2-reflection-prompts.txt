@@ -1,10 +1,13 @@
 What happens when you initialize a repository? Why do you need to do it?
+	- A subdirectory ./git will be created where the metadata will be stored.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+	- The staging area is only a list of filenames and does not actually contain files.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+In case you achanged files in the working directory that are related to mulitple logical changes you can add one after the other to the staging area.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
